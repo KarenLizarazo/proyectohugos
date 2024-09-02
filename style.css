@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0%;
     padding: 0%;
@@ -75,6 +76,12 @@
     font-size: 18px;
 }
 
+.boleteria a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
 .boleteria:hover{
     font-size: 19px;
     cursor: pointer;
@@ -91,7 +98,12 @@
 
 .escuela .esc {
     font-size: 18px;
+}
 
+.escuela a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
 }
 
 .escuela:hover{
@@ -384,7 +396,11 @@ video{
 
 .information ul li a:hover,
 .my-account ul li a:hover {
-	color: var(--dark-color);
+    color: #FD460A;
+}
+
+.title-footer p{
+    color: #F0F2F5;
 }
 
 .social-icons {
